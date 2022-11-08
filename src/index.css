@@ -1,5 +1,9 @@
-body {
+* {
   margin: 0;
+}
+
+body {
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -29,12 +33,19 @@ code {
   color: rgb(255, 255, 255);
   align-items: center;
   width: 760px;
+  padding: 10px;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 40px;
 }
 
 .navbar{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 760px;
-  justify-content: center;
-  margin: auto;
+  margin: 10px auto;
+  padding: 1rem 0;
 }
 
 .liens{
@@ -45,10 +56,48 @@ code {
 
 }
 
+.nav-lien{
+  margin-right: 22rem;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center; 
+  vertical-align: middle; 
+  padding: 0.6rem;
+  font-size: 1.9 rem;
+  background-color: blueviolet;
+  border-radius: 50px;
+  color: aliceblue;
+}
+
+.nav-lien:hover{
+  margin-right: 22rem;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center; 
+  vertical-align: middle; 
+  padding: 0.6rem;
+  font-size: 1.9 rem;
+  background-color: rgb(255, 242, 0);
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.lien-creer{
+  list-style-type: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
 .lien{
   align-items: center;
   list-style-type: none;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 20px;
 
 }
@@ -66,6 +115,12 @@ code {
   text-align: left;
   padding: 0.2rem;
   margin: 1rem 0;
+}
+
+.blog:hover{
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 7px 13px 5px rgba(0,0,0,0.15); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 7px 13px 5px rgba(0,0,0,0.15);
+padding: 1rem;
 }
 
 .blog-publication-date{

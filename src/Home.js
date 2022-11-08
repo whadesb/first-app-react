@@ -2,8 +2,11 @@ import { useState } from "react";
 import BlogList from './BlogList';
 
 
+
+
 const Home = () => {
-    
+
+
   const [blogs, setBlog] = useState([
     {
       id: 1,
@@ -16,31 +19,32 @@ const Home = () => {
       id: 2,
       title: "Lewis Hamilton - Ses records",
       body: "azij  efkefkz okfpz adl af", 
-      author: "Tim BER", 
+      author: "WhadS BER", 
       date: "02/02/2022"
     },
     {
       id: 3,
-      title: "titre 3",
+      title: "L'Ocean des Remous",
       body: "azij  efkefkz okfpz adl af", 
-      author: "Tim BER", 
-      date: "02/02/2022"
+      author: "WhadS BER", 
+      date: "22/09/2020"
     },
     {
       id: 4,
-      title: "titre 4",
+      title: "Ensemble, chemins & nO",
       body: "azij  efkefkz okfpz adl af", 
-      author: "Tim BER", 
-      date: "02/02/2022"
+      author: "Thomas EZ", 
+      date: "04/05/2021"
     }
   ]);
 
   return (
     <div className="content">
       <div className="bloc-head-home">
-        <h1 className="welcome">Welcome in my World!</h1>
+        <h1 className="welcome">Welcome ! Blog en React js</h1>
         <BlogList blogs={blogs} />
-        
+ 
+      
       </div>
     </div>
   );
