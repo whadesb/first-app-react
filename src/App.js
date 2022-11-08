@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './Home';
 import Navbar from './Navbar';
-import Listecar from './Listecar';
+
 import { useState } from 'react';
 
 function App() {
@@ -11,15 +11,11 @@ function App() {
        <div className="navbar">
        </div>
       <Home />
+      
 
-       <div className="content">
-
-       </div>
     
-      <Listecar />
-      <div className="listcar">
-      </div>
     </div>
+    
   );
 }
 
