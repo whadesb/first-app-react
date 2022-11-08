@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div className="content">
       <div className="bloc-head-home">
-        <h1 className="welcome">Welcome ! Blog en React js</h1>
+        <h1 className="welcome">Welcome Dine's World ! React js</h1>
         <BlogList blogs={blogs} />
  
       

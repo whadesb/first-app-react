@@ -63,10 +63,10 @@ code {
   list-style-type: none;
   align-items: center; 
   vertical-align: middle; 
-  padding: 0.6rem;
-  font-size: 1.9 rem;
+  padding: 0.9rem;
+  font-size: 1.2 rem;
   background-color: blueviolet;
-  border-radius: 50px;
+  border-radius: 0.8rem;
   color: aliceblue;
 }
 
@@ -77,10 +77,10 @@ code {
   list-style-type: none;
   align-items: center; 
   vertical-align: middle; 
-  padding: 0.6rem;
-  font-size: 1.9 rem;
+  padding: 0.9rem;
+  font-size: 1.2 rem;
   background-color: rgb(255, 242, 0);
-  border-radius: 50px;
+  border-radius: 0.8rem;
   color: rgb(0, 0, 0);
 }
 
@@ -136,4 +136,9 @@ padding: 1rem;
   flex-direction: column;
   font-weight: bolder;
   color: aliceblue;
+}
+
+.bas-page{
+  height: 100px;
+  background-color: #ffffff;
 }
